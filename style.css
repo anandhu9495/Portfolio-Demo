@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+}
+
+
+
+*{
+    font-family: 'Black Ops One', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Rubik Iso', cursive;
+}
+nav{
+    background-color: rgb(209, 180, 99);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    
+}
+nav ul li a{
+    margin: 50px;
+    
+}
+a{
+    color: rgb(10, 4, 16);
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: rgb(19, 19, 20);
+     text-shadow: 2px  8px 4px crimson;
+}
+video{
+    width: 100%;
+    
+}
+.overlay{
+    position: absolute;
+    top: 80%;
+    left: 57%;
+    color: rgb(255, 187, 0);
+    text-shadow: 3px 4px 6px rgb(0, 55, 255);
+    
+}
+span{
+    color: blue;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+
+}
+#home::before{
+    content: "";
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/elon-1602868640.jpg?crop=0.958xw:0.958xh;0.0112xw,0.0128xh&resize=1200:*);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+    
+    
+}
+.main{
+    position: absolute;
+    border: 2px ridge whitesmoke;
+    padding: 50px;
+    top: 1050px;
+    left: 70px;
+    
+    left: 70%;
+    box-shadow: 2px 4px 2px 4px ;
+    
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+h2:hover{
+    color: blue;
+}
+
+
+.pic{
+    display: flex;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    border-radius: 20%;
+    
+}
+.pic p{
+    margin-left: 10%;
+}
+.intro h3{
+    text-align: center;
+}
+.gallery img{
+    
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    margin-left: 10%;
+
+    
+
+}
+.gallery{
+    align-items: center;
+    
+}
+.gallery img:hover{
+    border: 5px solid red;
+}
+    
+.row{
+    display: flex;
+    
+}
+.box img{
+    width: 400px;
+}
+.box{
+    
+
+    
+    background: linear-gradient(to top,rgb(129, 81, 231)50%,white 50% );
+    background-size: 100% 200%;
+    transition: all 0.8s;
+    
+    
+    border: 4px solid rgb(5, 1, 17);
+}
+.box:hover{
+    background-position: left bottom;
+    border: none;
+    box-shadow: 3px 4px 5px 2px rgb(0, 7, 12);
+}
+.box h4{
+    text-align: center;
+    color: rgb(1, 1, 18);
+}
+.box p{
+    text-align: justify;
+    margin: 20px;
+
+}
+.input{
+    display: flex;
+    margin-left: 120%;
+    width: 100%;
+    margin-top: 2%;
+}
+form{
+    width: 500px;
+    
+}
+button{
+    padding-left: 40%;
+    
+}
+.box{
+    display: flex;
+}
+
+
+
+@media screen and (max-width:400px){
+
+nav{
+    width: 450px;
+}    
+
+
+
+
+
+
+}
